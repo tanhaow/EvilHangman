@@ -1,4 +1,5 @@
 # Evil Hangman Project
+Github repo link: https://github.com/tanhaow/EvilHangman.git
 
 ## Overview
 Evil Hangman is a variation of the traditional Hangman game. Unlike the standard game where the word to be guessed remains constant, Evil Hangman changes the word throughout the game as long as it fits the player's previous guesses. This project implements Evil Hangman in Java, offering a more challenging word-guessing experience.
@@ -13,6 +14,18 @@ The project is comprised of the following main components:
 1. `EvilHangman.java`: Contains the core game logic, including word selection, guess processing, and game flow control.
 2. Other associated files like `EvilHangmanRunner.java` and `EvilHangmanTest.java` for running and testing the game.
 3. `engDictionary.txt`: A default English dictionary file used for word selection.
+
+## How to Run
+1. **Compile the Java Files:**
+   - Compile the `.java` files with a Java compiler.
+     ```
+     javac EvilHangman.java EvilHangmanRunner.java EvilHangmanTest.java
+     ```
+2. **Run the Game:**
+   - Start the game by executing `EvilHangmanRunner`.
+     ```
+     java EvilHangmanRunner
+     ```
 
 ## How to Play
 - The game starts with a randomly selected word length.
